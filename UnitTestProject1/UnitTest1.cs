@@ -21,7 +21,7 @@ namespace UnitTestProject1
         public void GivenMoodAnalyseClassName_ShouldReturnMoodAnalyseObject_UsingParameterizedConstructor()
         {
             object expected = new MoodAnalyser("HAPPY");
-            object obj = MoodAnalyserFactory.CreateMoodAnalyseUsingParameterizedConstructor("MoodAnalyser1.MoodAna", "MoodAnalyser", "SAD");
+            object obj = MoodAnalyserFactory.CreateMoodAnalyseUsingParameterizedConstructor("MoodAnalyser1.MoodAnalyser", "MoodAna", "SAD");
             expected.Equals(obj);
         }
 
